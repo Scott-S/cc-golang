@@ -1,1 +1,3 @@
-# cc-golang
+### CC Golang Scott Scialabba
+
+#### JSON API Endpoint

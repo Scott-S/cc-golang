@@ -8,7 +8,6 @@ import (
 )
 
 type GeneralInfo struct {
-    //remove omit empty
     Email          string   `json:"email"`
     Website        string   `json:"website"`
     GithubRepoLink string   `json:"github_repo_link"`
@@ -41,7 +40,6 @@ func GetData(w http.ResponseWriter, r *http.Request) {
     json.NewEncoder(w).Encode(Data)
 }
 
-// our main function
 func main() {
     router := mux.NewRouter()
 
